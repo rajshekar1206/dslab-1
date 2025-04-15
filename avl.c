@@ -13,7 +13,7 @@ AVLNODE createNodeInAVL(int item) {
 	temp->left = temp->right = NULL;
 	return temp;
 }
-int height(AVLNODE root) {
+int height(AVLNODE  root) {
 	int lh,rh;
 	if(root==NULL)
 		return(0);
